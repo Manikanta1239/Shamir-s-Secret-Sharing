@@ -51,12 +51,14 @@ Shamir's Secret Sharing (SSS) is a cryptographic algorithm that enables secure d
 
 2. Install dependencies:
    ```sh
-   pip install numpy sympy
+   pip install numpy sympy shamir
    ```
 
 3. Verify installation:
    ```sh
-   python -c "import shamir; print(shamir.__version__)"
+   pip show shamir
+         (or)
+   pip list | findstr shamir
    ```
 
 ## Detailed Usage Guide
